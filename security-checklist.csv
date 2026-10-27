@@ -1,0 +1,16 @@
+area,control,status
+Network,No inbound port-forwards to the head-end,Done
+Network,Remote access via encrypted relay only,Done
+Devices,ESPHome API encryption on all boards,Done
+Devices,Generic fallback hotspot SSIDs + strong passwords,Done
+Devices,Static DHCP reservations for integrated devices,Done
+Credentials,Secrets files never committed,Done
+Command,Risk-tiered write access,Done
+Command,RF gateway transmit audit before enabling,Done
+Monitoring,Offline alerts for critical interfaces,Done
+Publishing,No-reply commit identity + clean history,Done
+Publishing,Image metadata stripped,Done
+Publishing,True PDF redaction,Done
+Publishing,Personal cloud vendors anonymised,Done
+Publishing,Security logic withheld,Done
+Publishing,Periodic live audit,Done
