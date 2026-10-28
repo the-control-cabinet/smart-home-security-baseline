@@ -39,7 +39,7 @@
 
 ### Devices
 - [x] ESPHome native API **encryption** on every board.
-- [x] Fallback hotspots with strong passwords. **Generic SSIDs**, so they don't identify the location of the device.
+- [x] Fallback hotspots protected by a strong password held as a secret; fallback SSIDs are **kept out of the published configs**.
 - [x] Static DHCP reservations for locally integrated LAN devices (stability, and an audit of what's on the network).
 
 ### Credentials
@@ -70,7 +70,7 @@
 | Personal email inside diagram PDFs | Same | True redaction (text removed), metadata cleared |
 | A list of personal cloud vendors | A targeting kit when combined with an email | Named by function, not vendor |
 | Security automations described in detail | Physical-security intelligence | Described at category level only |
-| Fallback Wi-Fi names naming rooms | Links a physical location to the public repos | Made secrets, with generic names |
+| Fallback Wi-Fi names in the published configs | Links a physical location to the public repos | Removed from the published configs (held as secrets) |
 
 ## 4. Continuous improvement
 Hardening is reviewed periodically against these principles. **Open items are tracked privately, not published:** a public list of controls not yet in place would be a map for an attacker. That applies to this repo and to every repo in the portfolio.
